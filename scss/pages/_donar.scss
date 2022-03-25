@@ -1,0 +1,22 @@
+.donar__container {
+    height: 100vh;
+}
+.donar__container2 {
+    @include flexCenter(column);
+    padding-top: 20vh;
+    text-align: center;  
+}
+.myButton__donate {
+    @include myButton;   
+    width: 20vw;   
+    margin: 2vh;
+}
+.donar__text--title {
+    @extend %headline_xlarge_pc;
+    text-shadow: 2px 2px rgb(4,4,4); 
+}
+.donar__text--paragraph {
+    font-family: $montserrat;
+    font-size: 1rem;
+}
+

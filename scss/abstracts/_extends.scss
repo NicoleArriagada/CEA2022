@@ -1,0 +1,44 @@
+%p-one-m-0 {
+    padding: 2vh;
+    margin: 0;
+}
+%headline_xxxlarge_pc {
+    font-size: 5rem;
+    font-weight: weight(bold);
+    color: $primary-color;
+}
+%headline_xxxlarge_ac {
+    font-size: 4rem;
+    font-weight: weight(bold);
+    color: $accent-color;
+}
+%headline_xxlarge_ac {
+    font-size: 3rem;
+    font-weight: weight(bold);
+    color: $accent-color;
+}
+%headline_xxlarge_pc {
+    font-size: 4rem;
+    font-weight: weight(bold);
+    color: $primary-color;
+}
+%headline_xlarge_ac {
+    font-size: 2rem;
+    font-weight: weight(medium);
+    color: $accent-color;  
+}
+%headline_xlarge_pc {
+    font-size: 2rem;
+    font-weight: weight(bold);
+    color: $primary-color;
+}  
+%headline_large_pc {
+    font-size: 2rem;
+    font-weight: weight(bold);
+    color: $primary-color;  
+}
+%paragraph_sc {
+    font-size: 1.5rem;
+    font-weight: weight(medium);
+    color: $secondary-color;  
+}

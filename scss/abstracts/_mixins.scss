@@ -1,0 +1,54 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+@mixin flexCenter2($direction) {  
+}
+
+@mixin bgBannerCenter {  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin bgBannerCenterParallax {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+@mixin bgBannerTop {  
+    background-position: topr;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+//flex-wrap:wrap;
+
+// border decorations
+@mixin borderCard_pc {
+    border-style: solid;    
+    border-width: 0.5px;
+    border-color: $paragraph-color;
+}
+@mixin borderCard_ac {
+    border-style: solid;    
+    border-width: 0.5px;
+    border-color: $accent-color;
+}
+
+@mixin myButton { 
+    color: $accent-color;    
+    background-color: $primary-color;
+    text-decoration: none;
+    border-radius: 10px;   
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 4vh;
+    padding-right: 4vh;    
+        &:hover {
+            color: white;
+            text-shadow: 1px 1px black;
+            background-color: $primary-color;
+        }    
+}

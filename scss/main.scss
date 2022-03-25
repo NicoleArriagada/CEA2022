@@ -1,0 +1,25 @@
+@import './vendors/bootstrap';
+
+@import './base/resets';
+@import './base/typography';
+
+@import './abstracts/variables';
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/extends';
+
+
+
+@import './layouts/navbar';
+@import './layouts/footer';
+
+@import './components/myCard';
+@import './components/myCarousel';
+
+@import './pages/index';
+@import './pages/donar';
+@import './pages/voluntariado';
+@import './pages/adopta';
+@import './pages/contacto';
+@import './pages/temporal';
+

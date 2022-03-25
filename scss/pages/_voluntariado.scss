@@ -1,0 +1,53 @@
+.voluntariado__container--banner {
+    padding-top: 15vh;
+    background-image: url("/dist/image/animal-g245164e35_1920.jpg");
+    @include bgBannerCenterParallax;
+    height: 90vh;   
+    text-align: center; 
+   
+}
+.voluntariado__text--title  {
+    @extend %headline_xxxlarge_ac; 
+    font-family: $montserrat;
+    padding-top: 10vh;
+    justify-content: center; 
+    text-align: center;
+    text-shadow: 2px 2px rgb(4,4,4)
+}
+.voluntariado__text--paragraph {
+    @extend %headline_xlarge_ac;
+    font-family: $montserrat;
+    padding-bottom: 7vh;
+    padding-left:   10vw;
+    padding-right: 10vw;
+    text-shadow: 3px 3px rgb(4,4,4)    
+}
+//Voluntarido Section myCards
+
+.card__display  {
+    margin-top: 5vh; 
+    display: block;
+}
+.card {
+    @include flexCenter(column);  
+}
+.card-img-top {
+    margin-top: 3vh; 
+    width: 15vw;
+}
+.vol__card--text {
+    font-family: $montserrat;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    height: 170px;
+}
+.vol__btn {
+    @include myButton;
+    border-color: $primary-color;
+}
+

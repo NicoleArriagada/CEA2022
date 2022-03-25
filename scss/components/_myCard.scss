@@ -1,0 +1,28 @@
+.colaborate__item--card {
+    display: flex;
+    justify-content: center;
+}
+.colabora__card--image {
+    height: 10vh;
+}
+.myCard {
+    @include flexCenter(column);
+    margin: 2vw; 
+
+    &__image {
+        height: 10vw;    
+    }
+    &__text--title {
+        @extend %headline_large_pc;
+    }
+    &__text--paragraph {
+        @extend %paragraph_sc;
+    }
+    &__myButton {
+        @include myButton;
+        font-size: 4vh;
+    }
+}
+.myCard__text--title, .myCard__text--paragraph {   
+    text-justify: justify;
+}

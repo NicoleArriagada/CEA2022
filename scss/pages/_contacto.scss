@@ -1,0 +1,13 @@
+.contact__form {
+    @include bgBannerCenter;
+    background-image: url(/dist/image/cat_dog.jpg);
+    @include flexCenter(column);
+    padding: 10vw;
+    height: 100vh;
+    color: $primary-color;
+    font-size: 1.5em;
+    font-weight: weight(bold);
+    font-family: $montserrat;
+    text-shadow: 1px 1px rgb(4,4,4); 
+}
+//.contact__form--bg 
