@@ -1,18 +1,25 @@
 .myCarousel2 {
     height: 100vh;
-    width: 35vw; 
-    overflow:hidden;  
+    width: 35vw;
+   
+}
+.portada__myCarousel {
+    height: 90vh;
+    margin-bottom: 0;
 }
 .myCarousel-item {
-    height: 90vh;    
+    height: 90vh;
+    margin-bottom: 0;
 }
 .myCarousel__text--title {
     @extend %headline_xxlarge_ac; 
     font-family: $montserrat;
-    text-shadow: 3px 3px rgb(4,4,4);    
+    text-shadow: 3px 3px rgb(4,4,4);
+     
 }
 .myCarousel__text--paragraph {
     @extend %headline_xlarge_pc; 
     font-family: $montserrat;
     text-shadow: 2px 2px rgb(4,4,4); 
+    padding-bottom: 10vh;
 }

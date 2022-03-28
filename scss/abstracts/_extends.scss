@@ -18,7 +18,7 @@
     color: $accent-color;
 }
 %headline_xxlarge_pc {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: weight(bold);
     color: $primary-color;
 }
@@ -41,4 +41,9 @@
     font-size: 1.5rem;
     font-weight: weight(medium);
     color: $secondary-color;  
+}
+%paragraph_pc {
+    font-size: 1.5rem;
+    font-weight: weight(medium);
+    color: $accent-color;  
 }

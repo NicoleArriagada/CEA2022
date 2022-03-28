@@ -1,34 +1,35 @@
 
-/*.portada__container--banner {
-    padding-top: 15vh;
-    background-image: url("/dist/image/puppies_banner.jpg");
+.portada__container--banner {
+    padding-top: 10vh;
+    background-image: url("/dist/image/perro_calle.jpg");
     @include bgBannerCenterParallax;
     height: 100vh;     
     text-align: center;
     padding-bottom: 10vh;
-}*/
+}
 
 .portada__text--title  {
-    @extend %headline_xxxlarge_ac;  
+    @extend %headline_xlarge_ac;  
     font-family: $montserrat;
-    text-shadow: 2px 2px rgb(4,4,4);   
-    position: absolute;
+    text-shadow: 2px 2px rgb(4,4,4);     
     @include flexCenter(column);
+ 
 }
 .portada__text--paragraph {
-    @extend %headline_xlarge_pc;
+    @extend %paragraph_pc ;
     font-family: $montserrat;
+    padding-top: 10vh;;
     padding-bottom: 2vh;
-    padding-left:   15vw;
-    padding-right: 15vw;
-    text-shadow: 2px 2px rgb(4,4,4);    
+    padding-left:   10vw;
+    padding-right: 10vw;
+    text-shadow: 1px 1px rgb(4,4,4);    
 }
 .portada__text--title, .portada__text--paragraph {
     padding-top: 2vh;
     justify-content: center;
 }
-.myButton-donate {
-    font-size: 5vh;
+.portada__myButton--donate {
+    font-size: 3vh;
     @include myButton;
 }
 .colaborate__item--title {
@@ -38,6 +39,7 @@
     justify-content: center; 
     text-align: center;
     text-shadow: 1px 1px rgb(4,4,4);
+    margin: 0;
 }
 .adopta__container--banner {   
     padding-top: 10vh;    
@@ -51,8 +53,7 @@
     font-family: $montserrat;
     padding-left:   15vw;
     padding-right: 15vw;
-    text-shadow: 2px 2px rgb(4,4,4);
-    padding-bottom: 5vh;
+    text-shadow: 2px 2px rgb(4,4,4);    
 }   
 .colabora__container--cards {
     margin-bottom: 5vh;

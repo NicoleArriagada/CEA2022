@@ -3,8 +3,10 @@
 }
 .donar__container2 {
     @include flexCenter(column);
-    padding-top: 20vh;
+    padding-top: 10vh;
     text-align: center;  
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 .myButton__donate {
     @include myButton;   
@@ -19,4 +21,3 @@
     font-family: $montserrat;
     font-size: 1rem;
 }
-

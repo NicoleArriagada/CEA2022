@@ -20,8 +20,8 @@
       <div class="dona__container container-fluid gx-0">
         <div class="row">
     <!--Donar Sección Carrusel -->
-          <div class="col-sm-12 col-md-6 col-xl-6">
-            <div id="carouselExampleSlidesOnly" class="carousel slide myCarousel2" data-bs-ride="carousel">
+          <div class="col-sm-12 col-md-6 ">
+            <div id="carouselExampleSlidesOnly" class="carousel slide myCarousel2 d-none d-md-block" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item myCarousel-item2 active">
                   <img src="./image/gatitos__2.jpg" class="d-block w-100 myCarousel--image2" alt="...">
@@ -39,20 +39,45 @@
             </div>
           </div>
     <!--Donar Sección Botones de Pago -->    
-          <div class="col-sm-12 col-md-6 col-xl-6">
+          <div class="col-sm-12 col-md-6">
             
             <div class="donar__container2">
               <p class="donar__text--title">Colabora con nosotros</p>
               <p class="donar__text--paragraph">Ahora contamos con pasarela de pago para transferencias más sencillas y seguras.</p>
-              <a class="myButton__donate" href="donar.html">$5.000</a>
-              <a class="myButton__donate" href="donar.html">$10.000</a>
-              <a class="myButton__donate" href="donar.html">$25.000</a>
-              <a class="myButton__donate" href="donar.html">$50.000</a>
-              <a class="myButton__donate" href="donar.html">OTRO</a>
+              <a class="myButton__donate" href="https://www.flow.cl/app/web/pagarBtnPago.php?token=ggc9jll">$5.000</a>
+              <a class="myButton__donate" href="https://www.flow.cl/app/web/pagarBtnPago.php?token=qfoldmc">$10.000</a>
+              <a class="myButton__donate" href="https://www.flow.cl/app/web/pagarBtnPago.php?token=ivvqlus">$25.000</a>
+              <a class="myButton__donate" href="https://www.flow.cl/app/web/pagarBtnPago.php?token=qa87kco">$50.000</a>
+              <a class="myButton__donate" href="https://www.flow.cl/app/web/pagarBtnPago.php?token=uvmkwdz">OTRO</a>
+
+              <button type="button" id="heartStatic" class="btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Gracias!"> </button>
+
+    <!-- Button trigger modal CORAZÓN-->
+              <button type="button" id="heart" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Aquí
+              </button>
+
+    <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">De corazón, muchas gracias por apoyarnos!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Con tu colaboración y nuestro esfuerzo, podemos combiar las vidas de mucho animales que hoy sufren de abandono y maltrato. 
+                      </div>                        
+                    </div>
+                  </div>
+                </div>
+                <div class="donar__text--paragraph">
+                  <p>Con tu donación podremos costear los gastos médicos de nuestros rescatados, pagar esterilizaciones mensuales para animalitos de calle,  compra de alimentos, medicamentos e insumos de aseo, entre otros.</p>
+                </div>
             </div>
           </div>
         </div>
       </div>
+      
 
   
       <div class="myBoxes__item--spacer row"></div>

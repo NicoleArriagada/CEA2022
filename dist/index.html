@@ -14,7 +14,7 @@
       <!--end of Navigation bar-->
     </header>
       <main>      
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-none d-md-block portada__myCarousel" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -23,21 +23,21 @@
           <div class="carousel-inner">
             <div class="carousel-item myCarousel-item active">
               <img src="./image/puppies_banner.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-xl-block">
                 <h5 class="myCarousel__text--title">Adopta</h5>
                 <p class="myCarousel__text--paragraph">Luego de ser rescatados, nuestros pequeños necesitan un hogar.</p>
               </div>
             </div>
             <div class="carousel-item myCarousel-item">
               <img src="./image/gatitos_rescate.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-xl-block">
                 <h5 class="myCarousel__text--title">Esteriliza</h5>
                 <p class="myCarousel__text--paragraph">No contribuyas al problema. Esteriliza a tus mascotas.</p>
               </div>
             </div>
             <div class="carousel-item myCarousel-item">
               <img src="./image/perro_calle.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-xl-block">
                 <h5 class="myCarousel__text--title">Desparasita</h5>
                 <p class="myCarousel__text--paragraph">Periódicamente, realizamos operativos de esterilización. Revisa nuestra calendarización y agenda una hora.</p>
               </div>
@@ -52,16 +52,16 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      <!--Start Index Banner
-        <div class="portada__container container-fluid">
+      <!--Start Index Banner -->
+        <div class="portada__container d-sm-block d-md-none container-fluid gx-0">
           <div class="row">         
             <div class="portada__container--banner col">         
               <h1 class="portada__text--title">Fundación Colectivo Empatía Animal</h1>
               <p class="portada__text--paragraph">Rescate, Esterilización, Rehabilitación, Adopción y Educación en TRM.</p> 
-              <a class="myButton-donate" href="donar.html">Donar Aquí</a>
+              <a class="portada__myButton--donate" href="donar.html">Donar Aquí</a>
             </div>
           </div> 
-        </div> -->
+        </div>
         <!--Formas de Colaborar Container-->
         <div class="colabora__container--cards container-fluid row"> 
           <p class="colaborate__item--title">FORMAS DE COLABORAR</p>
@@ -102,10 +102,10 @@
           </div>   
         </div>
         <!--Start Adopta Banner-->
-            <div class="adopta__container">
-              <div class="adopta__container--banner">
-                <p class="adopta__text--paragraph row">Cada animal tiene su historia y ellos llegan a nosotros en su peor situación de vida. Nosotros aportamos con un empujoncito para llegar a ti, que estás leyendo ahora, pensando en adoptar y te invitamos a conocerlos!</p> 
-                <a class="myButton-donate" href="adopta.html">Adopta Aquí</a>
+            <div class="adopta__container container-fluid">
+              <div class="adopta__container--banner col">
+                <p class="adopta__text--paragraph">Cada animal tiene su historia y ellos llegan a nosotros en su peor situación de vida. Nosotros aportamos con un empujoncito para llegar a ti, que estás leyendo ahora, pensando en adoptar y te invitamos a conocerlos!</p> 
+                <a class="portada__myButton--donate" href="adopta.html">Adopta Aquí</a>
               </div>
             </div>
         <!--Start Section News-->
